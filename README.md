@@ -1,4 +1,4 @@
-# Pyright mirror
+# markdown-link-check mirror
 
 Mirror of [`markdown-link-check`](https://github.com/tcort/markdown-link-check)
 for [pre-commit](https://pre-commit.com), created with
