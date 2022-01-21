@@ -1,22 +1,16 @@
 # markdown-link-check mirror
 
-Mirror of [`markdown-link-check`](https://github.com/tcort/markdown-link-check)
-for [pre-commit](https://pre-commit.com), created with
-[`pre-commit-mirror-maker`](https://github.com/pre-commit/pre-commit-mirror-maker).
+_This mirror is deprecated. Use the official pre-commit hook offered by [markdown-link-check](https://github.com/tcort/markdown-link-check) instead._
 
 ## Usage
 
-Add this to your `.pre-commit-config.yaml`:
+Add this to your [`.pre-commit-config.yaml`](https://pre-commit.com/#2-add-a-pre-commit-configuration):
 
 ```yaml
-- repo: https://github.com/ComPWA/mirrors-markdown-link-check
+- repo: https://github.com/tcort/markdown-link-check
   rev: ""
   hooks:
     - id: markdown-link-check
 ```
 
-then run `pre-commit autoupdate`.
-
-The tool can be configured with a `.markdown-link-check.json`, formatted as
-explained
-[here](https://github.com/tcort/markdown-link-check#command-line-tool).
+then run [`pre-commit autoupdate`](https://pre-commit.com/#updating-hooks-automatically).
